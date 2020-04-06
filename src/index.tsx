@@ -891,7 +891,7 @@ export default class BottomSheetBehavior extends React.Component<Props, State> {
               )}
             />
             {this.props.callbackNode && (
-              <Animated.Code
+              <Animated.useCode
                 exec={onChange(
                   this.translateMaster,
                   set(
